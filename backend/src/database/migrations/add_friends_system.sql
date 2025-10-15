@@ -31,3 +31,4 @@ CREATE INDEX IF NOT EXISTS idx_team_invites_team_id ON team_invites(team_id);
 CREATE INDEX IF NOT EXISTS idx_team_invites_invited_user_id ON team_invites(invited_user_id);
 CREATE INDEX IF NOT EXISTS idx_team_invites_status ON team_invites(status);
 
+
